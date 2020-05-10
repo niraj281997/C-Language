@@ -1,0 +1,15 @@
+
+	float (*fp())(int *)	
+	fp is a fun, which take no para & returns a 
+	pointer to function, which takes int ptr as para
+	& returns a float
+
+	fp is function.
+
+	fp is fun returning function add
+
+	int *fp1()
+	// fun returning add of int
+
+	int (*fp2())[5]
+	// fun returning entire array

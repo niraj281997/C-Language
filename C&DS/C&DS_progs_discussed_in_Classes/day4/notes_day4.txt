@@ -1,0 +1,306 @@
+
+	int **a;
+	
+
+
+	a is a double pointer
+	a is 2 level pointer
+
+	a is a pointer to pointer to int.
+
+	a is a pointer to int pointer
+
+	int *p;
+	
+	p is 1 level pointer
+	p is a pointer to int
+	p is a int pointer
+	
+-----------------------
+
+	int arr[5]={10,20,30,40,50};
+		
+	{10,20,30,40,50}
+	 0  1  2  3  4
+
+	here 5 represent size.
+	in array declaration this always represent size.
+
+	printf("%d", arr[4]); 
+	// here 4 represent index not the size
+
+	int x = arr[3];
+
+
+-----------------------
+
+	int arr[5];
+
+	arr is an array of 5 int.
+
+	
+	int *arr1[4];
+
+	arr1 is an array of 4 pointer to int.
+
+	arr1 is an array.
+
+	arr1 is an array of pointer.
+
+	array of pointer actually stores address.
+	array of int actually stores info/data/val.
+
+	int (*arr2)[4];
+
+	arr2 is a pointer to array of 4 int.
+	
+	arr2 is a pointer.
+
+	arr2 is an array pointer.
+
+	arr2 is a pointer to array.
+
+	--------------------
+
+	int *p;
+	
+	p is a pointer to int.
+	p is a int pointer
+	
+	pointer to int = int pointer
+
+
+	-----------------------
+
+	array of int
+	array of char
+	array of float
+	array of ptr
+
+	---------------
+
+	function having no para
+	void fun1();
+
+	function having int as a para
+	void fun2(int);
+	int x=10;
+	fun2(x);
+
+	function having two int as para
+	void fun3(int, int);
+	
+	function having int pointer as para
+	void fun4(int *);
+	int x=10;
+	int *p;
+	p=&x;
+	fun4(&x);
+	fun4(p);
+
+	fun4(&p); // wrong
+
+	function having two pointers
+	void fun5(int *, char *);	
+	
+	function having double pointer
+	void fun6(int **);
+	fun6(&p); // right
+
+	int **q = &p;
+	fun6(q); // 
+
+	fun6(&q);  // wrong
+
+	void fun7(int ***);	
+	fun7(&q); // right
+
+	-----------------------
+
+	function having para as array pointer
+	function having para as function pointer
+	----------------------------------
+
+	function returing nothing
+	
+	void fun8(void);
+	
+	fun8();
+
+	--------------------
+	function returning int 
+	
+	int fun9(void);
+	int x=fun9();
+
+	-----------------
+
+	function returning int ptr ( ret an address)
+
+	int *funA(void);
+	int *p=funA();
+
+	-------------------
+	function returning add of a ptr
+	int **funB(void);
+	
+	int **q=funB();
+
+	---------------------
+	function returning array pointer
+	function returning function pointer
+	----------------------------
+
+	int arr[5];
+	int *arr1[5];
+	int **arr2[5];
+
+
+
+-----------------------------
+
+
+	 int *fun1();
+
+	fun1 is a function which takes no para and
+	ret a ptr to int.
+
+	fun1 is a function.
+	fun1 is fun returning ptr.
+
+
+	void * fun2(void);
+
+	fun2 returning add but it has no type
+
+	void fun2(void); // no para & no ret
+	----------------------
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

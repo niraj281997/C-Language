@@ -1,0 +1,8 @@
+
+
+cat command 
+1- to create a file
+2- to display content of the file
+3- to concat two or more than two files
+
+

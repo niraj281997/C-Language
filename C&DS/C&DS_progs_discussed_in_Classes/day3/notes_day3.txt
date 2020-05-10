@@ -1,0 +1,49 @@
+
+ int a;
+	
+ a is int var.
+
+ int *p;
+
+  p is a pointer to int.
+	or
+  p is a int pointer
+
+ float *b;
+  b is a pointer to float
+  b is a float pointer
+
+ char *c;
+ c is a pointer to char
+ c is a char pointer
+
+---------------------
+	pointer size is always 8 bytes.
+     ( int pointer, char pointer, float ptr, double ptr,
+      struct ptr, fun ptr, array ptr )
+
+-------------------
+	dereferencing int pointer, we retrive 4 bytes
+	deref  char ptr, we retrive 1 byte
+
+	inc int ptr, jump by 4 bytes
+	inc char ptr, jump by 1 byte
+
+--------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
